@@ -1,2 +1,2 @@
 # Learning_Java
-Java MOOC
+with University of Helsinki’s massive open online course (MOOC) on object-oriented programming.
