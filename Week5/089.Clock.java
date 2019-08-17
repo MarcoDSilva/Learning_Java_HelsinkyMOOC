@@ -7,9 +7,9 @@ public class Clock {
 
     public Clock(int hoursAtBeginning, int minutesAtBeginning, int secondsAtBeginning) {
         // the counters that represent hours, minutes and seconds are created and set to have the correct initial values
-        this.hours = new BoundedCounter(hoursAtBeginning);
-        this.minutes = new BoundedCounter(minutesAtBeginning);
-        this.seconds = new BoundedCounter(secondsAtBeginning);
+        this.hours = new BoundedCounter(23);
+        this.minutes = new BoundedCounter(59);
+        this.seconds = new BoundedCounter(59);
 
         this.hours.setValue(hoursAtBeginning);
         this.minutes.setValue(minutesAtBeginning);
